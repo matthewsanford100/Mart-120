@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css.css">
+        <script>
+            function checkboxes() {
+                 var firstname = document.getElementById("fName").value;
+                if(firstname == "") {
+                    document.getElementById("fName").style.backgroundColor = "red";
+                    document.getElementById("fName").focus();
+                }
+                var lastname = document.getElementById("lName").value;
+                if(lastname == "") {
+                    document.getElementById("lName").style.backgroundColor = "red";
+                    document.getElementById("lName").focus();
+                }
+                var email = document.getElementById("Email").value;
+                if(email == "") {
+                    document.getElementById("Email").style.backgroundColor = "red";
+                    document.getElementById("Email").focus();
+                }
+                
+                var noButtonSelect = document.getElementById("noButton").value;
+                if(noButtonSelect == "No") {
+                    window.alert("Please agree to terms and conditions");
+                    event.preventDefault();
+                }
+                var yesButtonSelect = document.getElementById("yesButton").value;
+                if(yesButtonSelect == "Yes" ) {
+                    window.alert("Success");
+                    event.default();
+                }
+            }
+                
+            
+            
+        </script>
+    </head>
+    <body id="thirdBody">
+        <a href="MatthewSanford.html">homepage</a>
+        <a href="secondpage.html">secondpage</a>  
+        <h1 class="header">Third Page</h1>
+        <h2>Contact Us</h2>
+        <form action="nextPage.html" type="Post">
+            First Name: <input type="text" id="fName" required><br>
+            Last Name:  <input type="text" id="lName" required><br>
+            Email:  <input type="text" id="Email" required><br>
+            
+            <h4>Accept Terms and Conditions</h4>
+            <input type="radio" id="yesButton" name="Accept Terms and Conditions" value="Yes" required>Yes<br>
+            <input type="radio" id="noButton" name="Accept Terms and Conditions" value="No" >No<br>
+            <button id="btnSubmit" class="btn btn-primary" onclick='checkboxes();'>Submit</button>
+        </form>    
+            
+            
+    </body>
+</html>

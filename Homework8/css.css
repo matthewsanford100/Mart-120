@@ -1,0 +1,24 @@
+h1{
+    font-size: x-large;
+    color: crimson;
+}
+.header{
+    text-align: center;
+    text-transform: capitalize;
+}
+.fontColor{
+    color: rgb(24, 23, 23);
+}
+#firstBody{
+    color: blueviolet;
+    font-weight: 200;
+}
+
+#secondP{
+    text-transform: lowercase;
+    font-size: large;
+
+}
+#secondBackground{
+    background-image: url("cat.jpg")
+}
