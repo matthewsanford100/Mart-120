@@ -48,6 +48,7 @@ function draw() {
     //Enemy Arrays 
     
     for(var i = 0; i < enemyXs.length; i++) {
+        fill(getRandomNumber(255),getRandomNumber(255),getRandomNumber(255));
         circle(enemyXs[i],enemyYs[i],enemyDiameters[i]);
         enemyXSpeeds[i] = floor(random() * 10) + 1;
         enemyYSpeeds[i] = floor(random() * 10) + 1;
