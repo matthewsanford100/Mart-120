@@ -23,6 +23,9 @@
         <h2>Project 1</h2>
         <img src="Artist Lab Creation.png">
         <p> Artist Lab Creation.</p>
+        <a href="Artist Lab Creation.png" download>
+            ArtistLab Download
+        </a>
         <br>
         <p>An ode to cats created in ArtistLab where we learned the basics of code.</p>
         <h2>Project 2</h2>
