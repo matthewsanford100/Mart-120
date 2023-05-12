@@ -27,7 +27,8 @@
         <p>An ode to cats created in ArtistLab where we learned the basics of code.</p>
         <h2>Project 2</h2>
         <img src="scratch.png">
-        <p>Scratch Creation</p>
+        <br>
+        <a href="https://scratch.mit.edu/projects/850130143/">Scratch</a>
         <br>
         <p>A massive battle has broken out between Godzilla and Puff The Magic Dragon! Created in scratch.</p>
         <h2>Project 3</h2>
@@ -43,12 +44,17 @@
         <a href="https://studio.code.org/projects/playlab/5FN1QmxxH2CpK916gpPt5_Q0A70a7w2ZZnmMsiVFB60">GameLab</a>
         <h2>Project 5</h2>
         <img src="Alice.png">
-        <p>Alice Creation</p>
+        <br>
+        <a href="SpaceAliceProject.a3p" download>
+            <img src="SpaceAliceProject.a3p">
+            Alice Download
+        </a>
         <br>
         <p>A short film turned game about a traveler stuck on the mood. Can you defeat the aliens and Moon Yeti?</p>
         <h2>Project 6</h2>
         <img src="SelfPortrait.png">
-        <p>Self Portrait</p>
+        <br>
+        <a href="Homework9.html">Abstract Self Portrait</a>
         <br>
         <p>An Abstract Portrait of myself. Created with J5.</p>
         <h2>Project 7</h2>
