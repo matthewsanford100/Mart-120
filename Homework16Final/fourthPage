@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css.css">
+        <style>
+            h2 {
+               font-style: italic; 
+            }
+            h3{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+            p {
+                color: darkblue;
+                font-size: large;
+            }
+            
+        </style>
+    </head>
+    <body id="thirdBackground" style="text-align: center;">
+        <a href="MatthewSanford.html">Homepage</a>
+        <a href="secondpage.html">Art</a> 
+        <a href="thirdpage.html">Contact Us</a>
+    <p>
+        <h1>Portfolio</h1>
+        <h3>By: Matthew Sanford: Spring2023</h3>
+        <h2>Project 1</h2>
+        <img src="Artist Lab Creation.png">
+        <p> Artist Lab Creation.</p>
+        <br>
+        <p>An ode to cats created in ArtistLab where we learned the basics of code.</p>
+        <h2>Project 2</h2>
+        <img src="scratch.png">
+        <p>Scratch Creation</p>
+        <br>
+        <p>A massive battle has broken out between Godzilla and Puff The Magic Dragon! Created in scratch.</p>
+        <h2>Project 3</h2>
+        <img src="AppLab.png">
+        <br>
+        <a href="https://studio.code.org/projects/applab/lIjSHNJZ816vdZd-Kxap6ZIXYfJio5GLUg7emiPjyHA">AppLab</a>
+        <br>
+        <p>An App to teach you what character you are in the Avatar universe based off food. Created in AppLab</p>
+        <h2>Project 4</h2>
+        <img src="GameLab.png">
+        <br>
+        <p>A simple game, survive the onslaught of fireballs. Fun for all ages!</p>
+        <a href="https://studio.code.org/projects/playlab/5FN1QmxxH2CpK916gpPt5_Q0A70a7w2ZZnmMsiVFB60">GameLab</a>
+        <h2>Project 5</h2>
+        <img src="Alice.png">
+        <p>Alice Creation</p>
+        <br>
+        <p>A short film turned game about a traveler stuck on the mood. Can you defeat the aliens and Moon Yeti?</p>
+        <h2>Project 6</h2>
+        <img src="SelfPortrait.png">
+        <p>Self Portrait</p>
+        <br>
+        <p>An Abstract Portrait of myself. Created with J5.</p>
+        <h2>Project 7</h2>
+        <img src="AbstractSelfPortrait.png">
+        <br>
+        <p>An Even MORE Abstract Portrait of myself.</p>
+        <a href="Homework11.html">Abstract Self Portrait</a>
+        <h2>Project 8</h2>
+        <img src="Dungeon Game.png">
+        <br>
+        <p>My greatest achievement! A simple game that is harder than it looks. Can you escape the dungeon?</p>
+        <a href="setup.html">Dungeon Game</a>
+    </p>
+    </body>
+</html>

@@ -1,0 +1,51 @@
+h1{
+    font-size: x-large;
+    color: crimson;
+    text-align: center;
+}
+h3 {
+    font-size: small;
+    color: rgb(46, 44, 78);
+    text-align: center;
+}
+.header{
+    font-size: large;
+    text-align: left;
+    text-transform: capitalize;
+}
+.fontColor{
+    color: rgb(24, 23, 23);
+}
+#firstBody{
+    color: blueviolet;
+    font-weight: 200;
+}
+
+#secondP{
+    text-transform: lowercase;
+    font-size: large;
+
+}
+#secondBackground{
+    background-image: url("cat.jpg")
+}
+#thirdBackground{
+    background-color: aquamarine;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 125px;
+    width: 250px;
+    height:300px;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  #cats {
+    text-align: center;
+  }
